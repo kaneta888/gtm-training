@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>GTM研修用サイト</title>
+  <!-- GTM -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+  f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TPC9QKCL');</script>
+</head>
+<body>
+  <h1>お問い合わせフォーム（研修用）</h1>
+  <form id="contact-form">
+    abel>名前：<input type="text" name="name"></label><br><br>
+    abel>メールアドレス：<input type="email" name="email" required></label><br><br>
+    abel>職種：
+      <select name="job" id="job">
+        <option value="営業">営業</option>
+        <option value="IT">IT</option>
+        <option value="マーケティング">マーケティング</option>
+      </select>
+    </label><br><br>
+    abel>役職：
+      <select name="position" id="position">
+        <option value="一般社員">一般社員</option>
+        <option value="マネージャー">マネージャー</option>
+        <option value="役員">役員</option>
+      </select>
+    </label><br><br>
+    abel>従業員数：
+      <select name="employee_count" id="employee_count">
+        <option value="1〜10名">1〜10名</option>
+        <option value="11〜50名">11〜50名</option>
+        <option value="51名以上">51名以上</option>
+      </select>
+    </label><br><br>
+    <button type="submit" class="form_btn">送信</button>
+  </form>
+</body>
+</html>
